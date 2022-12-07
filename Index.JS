@@ -33,3 +33,35 @@ console.log(Pen);
 let friends = ["Marcos", "Silvia", "Elisa"]
 friends[1] = "Junior"
 console.log(friends)
+
+//Forma simples
+function saleStatus() 
+{
+    console.log("Approved")
+}
+saleStatus()
+
+
+//Forma elaborada
+function saleStatus(status,totalAmount) 
+{
+   console.log("Transaction " + status + "! Total: $" + totalAmount)
+}
+ saleStatus("Approved",25)
+
+//Forma simples
+
+function percentage10(price) 
+{
+    return price - (price * 10/100)
+}
+let total = percentage10(20)
+console.log(total)
+
+
+// Forma elaborada
+function percentage10(price)
+{
+    return price - (price * 10/100)
+}
+console.log(percentage10(30))
