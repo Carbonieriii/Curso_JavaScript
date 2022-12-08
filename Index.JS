@@ -65,3 +65,49 @@ function percentage10(price)
     return price - (price * 10/100)
 }
 console.log(percentage10(30))
+
+
+//Operadores aritimeticos
+//Mais
+let num1 = 3
+let num2 = 2
+
+console.log(num1 + num2)
+
+//Menos
+console.log(num1 - num2)
+
+//Vezes
+console.log(num1 * num2)
+
+//Divisão
+console.log(num1 / num2)
+
+//Resto da divisão
+console.log(num1 % num2)
+
+//Exponencial
+console.log(num1 ** num2)
+
+//Encrementar e Decremento
+console.log(++num1)
+console.log(num1++)
+console.log(--num2)
+console.log(num2--)
+
+// Operadores de atribuição
+let num1 = 3
+num1 += 20
+console.log(num1)
+//-= menos igual
+//*= vezes igual
+// /= divisão igual
+
+// Operadores de comparação
+let num1 = 5
+console.log(num1 > 3)
+console.log(num1 < 3)
+console.log(num1 >= 5)
+console.log(num1 <= 3)
+console.log(num1 === 5)
+console.log(num1 !== 5)
