@@ -111,3 +111,43 @@ console.log(num1 >= 5)
 console.log(num1 <= 3)
 console.log(num1 === 5)
 console.log(num1 !== 5)
+
+// Operadores ternarios
+let driver = 90
+let speed = driver > 110 ? "Above" : "Below"
+
+console.log(speed)
+
+// Operadores lógicos
+/*let temIdadeMinima = true
+let temTituloEleitor = true
+
+let podeVotar = temIdadeMinima && temTituloEleitor
+console.log("Pode votar: " + podeVotar)
+
+let podeViajar = !podeVotar
+console.log("Pode viajar: " + podeViajar)*/
+
+let temIdadeMinima = true
+let temTituloEleitor = false
+
+let podeVotar = temIdadeMinima || temTituloEleitor
+console.log("Pode votar: " + podeVotar)
+
+let podeViajar = !podeVotar
+console.log("Pode viajar: " + podeViajar)
+
+// Operadores lógicos com String
+//Exemplo 1
+/*let corCliente = "White"
+let corEstoque = "Red"
+let corVendida = corCliente || corEstoque
+
+console.log("A cor selecionada foi: " + corVendida)
+*/
+//Exemplo 2 
+let corCliente = undefined
+let corEstoque = "Red"
+let corVendida = corCliente || corEstoque
+
+console.log("A cor selecionada foi: " + corVendida)
