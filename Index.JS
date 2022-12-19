@@ -151,3 +151,59 @@ let corEstoque = "Red"
 let corVendida = corCliente || corEstoque
 
 console.log("A cor selecionada foi: " + corVendida)
+
+// If ... Else
+// Exemplo de um motorista em uma estrada que é 110
+
+let driverSpeed = 80
+
+if(driverSpeed > 110)
+{
+    console.log("Driving too fast")
+}
+
+else if(driverSpeed > 40 && driverSpeed <= 110)
+{
+    console.log("OK")
+}
+
+else
+console.log("Driving too slow")
+
+// Switch/Case
+// Exemplo de um aeroporto em que as siglas retornam o nome real.
+
+let airport = "SEA"
+
+switch (airport)
+{
+    case "MCO" :
+        console.log("Orlando")
+        break
+    case "JFK" :
+        console.log("Jonh F. Kennedy")
+        break
+    case "SEA" :
+        console.log("Seattle")
+        break
+    default:
+        console.log("Unknown")            
+}
+
+// For loop
+// Exemplo contando do 0 ao 10
+
+for (i = 0; i <= 10; i++)
+{
+    console.log("Numero " , i)
+}
+
+// While loop
+// Exemplo contando do 0 ao 10
+
+i = 1
+while (i <= 10)
+{
+    console.log("Numero " , i)
+    i++
+}
