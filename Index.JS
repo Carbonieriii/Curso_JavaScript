@@ -207,3 +207,43 @@ while (i <= 10)
     console.log("Numero " , i)
     i++
 }
+
+// Do While Loop
+i = 0
+do
+{
+
+    console.log("Numero ", i)
+    i++
+
+}
+while(i <= 10)
+    
+// For in Loop
+
+const myCar = 
+{
+  model: "BMW",
+  year: 2023,
+  km: 60000
+}
+
+for(let i in myCar)
+console.log(i, myCar[i])
+
+// For of Loop
+
+const friends = ["Gustavo", "Leo", "Lucas", "Alex"]
+
+for(let i of friends)
+console.log(i)
+
+// Adicionando Break
+
+i = 0
+while(i <= 10)
+{
+    if(i === 7) break
+    console.log("Numero ", i)
+    i++
+}
