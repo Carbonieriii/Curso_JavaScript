@@ -1,0 +1,46 @@
+///////HTML//////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Desafio 2</h1>
+    <h2>The result is: <span id="result"></span></h2>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+///////JS///////
+
+
+let productValue = Number(prompt("Enter the product value: "))
+
+if(productValue >= 20)
+{
+    document.getElementById("result").innerHTML = "Approved"
+}
+
+else
+{
+    document.getElementById("result").innerHTML = "Denied"
+}
+
+///////CSS///////
+
+h1
+{
+   color: blue;
+   text-align: center;
+}
+
+h2
+{
+ color:darkgoldenrod;
+ text-align: left;
+}
