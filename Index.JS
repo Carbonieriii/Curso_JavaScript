@@ -308,3 +308,47 @@ const book2 = createBook("Tim", "Carl", 1001)
 
 console.log(book1)
 console.log(book2)
+
+// POO
+// Constructor
+
+function CreateBook(title, author, pages)
+{
+        this.bookTitle = title;
+        this.bookAuthor = author;
+        this.bookPages = pages
+      
+}
+
+const book1 = new CreateBook("Atomic", "James", 306)
+console.log(book1)
+
+// POO
+// Built in Objects
+// Math
+
+let num1 = 3
+console.log(Math.PI * num1)
+
+console.log(Math.max(1,2,3,55,78,9))
+console.log(Math.min(6,2,3,55,78,9))
+
+// POO
+// Built in Objects
+// String
+
+let message = "Hey, my name is Giovanni"
+console.log(message.length)
+console.log(message.startsWith("Hey"))
+
+// Templates literals
+
+let firstName = "Joe"
+
+const email = "Hi Margot, \nThe meeting is confirmed! \nGiovanni."
+console.log(email)
+
+const email2 = `Hi ${firstName},
+The meeting is confirmed!
+Giovanni.`
+console.log(email2)
