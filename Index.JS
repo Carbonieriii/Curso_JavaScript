@@ -352,3 +352,70 @@ const email2 = `Hi ${firstName},
 The meeting is confirmed!
 Giovanni.`
 console.log(email2)
+
+// Array 
+// Adicionando informações a uma array pré definida
+
+const num = [7,8,9]
+
+num.push(10,11,12)
+
+num.unshift(1,2,3)
+
+num.splice(3,0,4,5,6)
+
+console.log(num)
+
+// Array 
+// Localizando informações em um array primitivo
+
+const num = [6,7,8,9]
+
+console.log(num.indexOf(8))
+console.log(num.includes(4))
+
+// Array 
+// Localizando informações em um array de referecia
+
+const movie = [
+    {id: 1, movieName: "Dejavu"},
+    {id: 2, movieName: "Back to the future"},
+    {id: 3, movieName: "The Matrix"}
+]
+console.log(movie.find(function(movie)
+{
+    return movie.movieName == "Back to the future"
+}))
+
+// Array 
+// Arrow Function
+
+const movie = [
+    {id: 1, movieName: "Dejavu"},
+    {id: 2, movieName: "Back to the future"},
+    {id: 3, movieName: "The Matrix"}
+]
+console.log(movie.find(
+
+ movie => movieName == "Back to the future"
+))
+
+// Array 
+// Pop, shift e splice
+
+const num = [5,6,7,8]
+//const final = num.pop()
+//const final = num.shift()
+const final = num.splice(2,1)
+
+console.log(num)
+console.log(final)
+
+// Array 
+// Deixando vazia a array
+
+let num = [6,7,8,9]
+
+num = []
+num.length = 0
+num.splice(0,num.length)
