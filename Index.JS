@@ -419,3 +419,55 @@ let num = [6,7,8,9]
 num = []
 num.length = 0
 num.splice(0,num.length)
+
+// Array 
+// Concat/Slice
+
+let num = [6,7,8,9]
+let letters = ["a","b","c"]
+
+all = num.concat(letters)
+half = all.slice(3,5)
+
+console.log(all)
+console.log(half)
+
+// Array 
+// Join
+
+
+let clients = ["Andre", "Lucas", "Carol"]
+let clientsJoin = clients.join(", ")
+
+console.log(clients)
+console.log(clientsJoin)
+
+// Array 
+// Sort/Reverse
+
+
+let clients = ["Andre", "Lucas", "Carol"]
+clients.sort()
+clients.reverse()
+console.log(clients)
+
+// Array 
+// Every
+
+
+const tempLondon = [10,4,6,8,0]
+const tempPositive = tempLondon.every(function(value){
+    return value >= 0
+})
+
+console.log(tempPositive)
+
+// Array 
+// Filter
+
+
+const tempLondon = [10,4,6,8,0, -9,2,-7]
+const tempPositive = tempLondon.filter(value => value >= 0
+)
+
+console.log(tempPositive)
