@@ -471,3 +471,34 @@ const tempPositive = tempLondon.filter(value => value >= 0
 )
 
 console.log(tempPositive)
+
+
+// Function 
+
+// Function Declaration
+function movie() 
+{
+    console.log("Rambo")
+}
+movie()
+
+// Function Expression
+const car = function()
+{
+    console.log("BMW")
+}
+car()
+
+// Function 
+
+// Arguments
+
+function price() {
+
+    let total = 0
+    for (let value of arguments)
+    total += value 
+    return total
+}
+
+console.log(price(10,20,30,40,50))
