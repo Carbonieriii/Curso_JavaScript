@@ -502,3 +502,14 @@ function price() {
 }
 
 console.log(price(10,20,30,40,50))
+
+
+// Function 
+// Default
+
+function carLoan(loan, rate = 2.5, years = 5) 
+{
+   return (loan * rate / 100 * years) + loan
+    
+}
+console.log(carLoan(20000))
